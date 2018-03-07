@@ -1,0 +1,11 @@
+map <C-p> <S-C-Tab>
+map <C-n> <C-Tab>
+map <C-f> /
+map d <nop>
+map D <nop>
+map <A-Up> gu
+set hintchars=jklhfdsagyuiopqwertnmzxcvb
+
+highlight -append Hint font-size:16px;
+
+style -name commandline-ime chrome://* #liberator-commandline-command input {ime-mode: inactive;}

@@ -1,0 +1,8 @@
+[core]
+	editor = vim
+[alias]
+	co = checkout
+	st = status
+	logns = log --name-status
+	diffc = diff --cached
+	logp = log --date=iso --pretty=format:\"%h %ad [%an] %s\"
