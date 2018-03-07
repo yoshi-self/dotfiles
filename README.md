@@ -20,12 +20,12 @@ Open vim
 
 ### .bashrc
 ```
-source ~/dotfile/.bashrc
+source ~/dotfiles/.bashrc
 ```
 
 ### .vimrc
 ```
-source ~/dotfile/.bashrc
+source ~/dotfiles/.vimrc
 ```
 
 ### .gitconfig
