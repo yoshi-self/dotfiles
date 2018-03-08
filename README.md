@@ -1,7 +1,8 @@
 # dotfiles
-This is my dotfiles uploaded for convinience
+This is my dotfiles uploaded for convinience  
+Below are instructions for future me
 
-## Installing
+## Installation
 
 ### submodules
 After clone, at the root of this repo
