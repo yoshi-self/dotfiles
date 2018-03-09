@@ -9,7 +9,7 @@ fi
 
 # Change title of screen window
 if [ $TERM == 'screen' ]; then
-  export PROMPT_COMMAND='printf "\033k%s:%s\033\134" "${USER}" "${PWD/#$HOME/~}"'
+  export PROMPT_COMMAND='printf "\033k%s:%s\033\134" "${USER}" "`basename \"${PWD/#$HOME/~}\"`"'
 fi
 
 alias la="ls -a"
