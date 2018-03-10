@@ -22,6 +22,8 @@ fi
 
 # Set prompt
 if [ -e ~/dotfiles/scripts/git/git-prompt.sh ]; then
+  source ~/dotfiles/scripts/git/git-prompt.sh
+  source ~/dotfiles/scripts/git/git-completion.bash
   GIT_PS1_SHOWDIRTYSTATE=1
   GIT_PS1_SHOWUPSTREAM=1
   export PS1='[\u@\h \W]\[\033[36m\]$(__git_ps1 \(%s\))\[\033[00m\]\$ '
