@@ -15,6 +15,3 @@ echo "curl ${completion_url} -o ~/dotfiles/scripts/git/git-completion.bash"
 curl ${completion_url} -o ~/dotfiles/scripts/git/git-completion.bash
 echo "curl ${prompt_url} -o ~/dotfiles/scripts/git/git-promt.sh"
 curl ${prompt_url} -o ~/dotfiles/scripts/git/git-prompt.sh
-
-echo "sourcec ~/dotfiles/scripts/git/git-completion.bash"
-echo "sourcec ~/dotfiles/scripts/git/git-prompt.bash"
