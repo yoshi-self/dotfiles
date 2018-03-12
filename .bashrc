@@ -17,7 +17,8 @@ alias up="source ~/dotfiles/scripts/up/up.sh"
 
 # Change title of screen window
 if [ $TERM == 'screen' ]; then
-  export PROMPT_COMMAND='printf "\033k%s:%s\033\134" "${USER}" "`basename \"${PWD/#$HOME/~}\"`"'
+  #export PROMPT_COMMAND='printf "\033k%s:%s\033\134" "${USER}" "`basename \"${PWD/#$HOME/~}\"`"'
+  export PROMPT_COMMAND='printf "\033k%s:%s\033\134" "`[ $USER = root ] && printf \"#\" || printf \"$\"`" "`basename \"${PWD/#$HOME/~}\"`"'
 fi
 
 # Set prompt
