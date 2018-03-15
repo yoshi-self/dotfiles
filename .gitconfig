@@ -6,3 +6,7 @@
 	logns = log --name-status
 	diffc = diff --cached
 	logp = log --date=iso --pretty=format:\"%h %ad [%an] %s\"
+	s = status
+	d = diff
+	dc = diff --cached
+	a = add
