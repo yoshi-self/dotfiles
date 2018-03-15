@@ -37,6 +37,7 @@ set tags+=tags;
 set previewheight=5
 set encoding=utf-8
 set noundofile
+set completeopt=menuone
 colorscheme desert
 
 "open .vimrc
