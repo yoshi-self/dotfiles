@@ -9,4 +9,7 @@
 	s = status
 	d = diff
 	dc = diff --cached
+	dif = diff
+	difc = diff --cached
 	a = add
+	ad = add
