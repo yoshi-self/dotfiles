@@ -1,7 +1,7 @@
 # g
 #
 # without argument : git status
-# with arguments : git $*
+# with arguments : git with arguments
 
 args=("$@")
 
