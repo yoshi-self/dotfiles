@@ -62,18 +62,15 @@ hi MatchParen ctermbg=LightGray ctermfg=Black
 
 filetype off
 set runtimepath+=~/dotfiles/.vim/bundle/vundle
-"call vundle#rc()
 call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'QuickBuf'
-"Bundle 'AutoComplPop'
 "Bundle 'thinca/vim-quickrun'
 Plugin 'scrooloose/nerdtree'
 "Bundle 'Shougo/vimproc'
 Plugin 'Shougo/neocomplcache'
 "Bundle 'Shougo/neosnippet'
 "Bundle 'Shougo/vimshell'
-"Bundle 'tomasr/molokai'
 "Bundle 'w0rp/ale'
 Plugin 'mattn/emmet-vim'
 call vundle#end()
