@@ -39,6 +39,7 @@ set encoding=utf-8
 set noundofile
 set completeopt=menuone
 colorscheme desert
+highlight PmenuSel cterm=bold ctermfg=0 ctermbg=6 guibg=DarkGrey
 
 "open .vimrc
 command! Vimrc :e ~/dotfiles/.vimrc
