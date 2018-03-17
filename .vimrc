@@ -112,3 +112,22 @@ let g:neosnippet#snippets_directory='~/dotfiles/.vim/snippets'
 let g:ale_sign_column_always = 1
 let g:ale_cpp_gcc_options = '-std=c++11 -Wall -Wextra -DLOCAL'
 
+""emmet-vim
+let g:user_emmet_settings = {
+\  'variables' : {
+\    'lang' : "ja"
+\  },
+\  'indentation': '  ',
+\  'html' : {
+\    'snippets' : {
+\      'html:5': "<!DOCTYPE html>\n"
+\        ."<html>\n"
+\        ."<head>\n"
+\        ."\t<meta charset=\"${charset}\">\n"
+\        ."\t<title></title>\n"
+\        ."</head>\n"
+\        ."<body>\n\t${child}|\n</body>\n"
+\        ."</html>",
+\    }
+\  }
+\}
