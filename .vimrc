@@ -61,20 +61,21 @@ hi MatchParen ctermbg=LightGray ctermfg=Black
 
 filetype off
 set runtimepath+=~/dotfiles/.vim/bundle/vundle
-call vundle#rc()
-Bundle 'gmarik/vundle'
-Bundle 'QuickBuf'
+"call vundle#rc()
+call vundle#begin()
+Plugin 'VundleVim/Vundle.vim'
+Plugin 'QuickBuf'
 "Bundle 'AutoComplPop'
 "Bundle 'thinca/vim-quickrun'
-Bundle 'scrooloose/nerdtree'
-"Bundle 'sudo.vim'
+Plugin 'scrooloose/nerdtree'
 "Bundle 'Shougo/vimproc'
-Bundle 'Shougo/neocomplcache'
+Plugin 'Shougo/neocomplcache'
 "Bundle 'Shougo/neosnippet'
 "Bundle 'Shougo/vimshell'
 "Bundle 'tomasr/molokai'
-"Bundle 'mattn/zencoding-vim'
 "Bundle 'w0rp/ale'
+Plugin 'mattn/emmet-vim'
+call vundle#end()
 filetype plugin indent on
 
 let g:vimshell_split_command = 'split'
