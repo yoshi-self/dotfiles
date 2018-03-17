@@ -15,6 +15,7 @@ alias cdgit="cd \`git rev-parse --show-toplevel\`"
 alias be="bundle exec"
 alias up="source ~/dotfiles/scripts/up/up.sh"
 alias g="~/dotfiles/scripts/misc/g.sh"
+alias t="tig status"
 
 # Change title of screen window
 if [ $TERM == 'screen' ]; then
