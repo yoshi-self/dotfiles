@@ -69,7 +69,7 @@ Plugin 'QuickBuf'
 Plugin 'scrooloose/nerdtree'
 "Bundle 'Shougo/vimproc'
 Plugin 'Shougo/neocomplcache'
-"Bundle 'Shougo/neosnippet'
+Plugin 'Shougo/neosnippet'
 "Bundle 'Shougo/vimshell'
 "Bundle 'w0rp/ale'
 Plugin 'mattn/emmet-vim'
@@ -95,6 +95,10 @@ let g:NERDTreeIgnore=['\~$', '\.pyc$', '^\.$', '^\.\.$']
 let g:NERDTreeShowHidden=1
 
 ""neosnippet
+" disable all default snippets
+let g:neosnippet#disable_runtime_snippets = {
+\   '_' : 1,
+\ }
 "Plugin key-mappings.
 imap <C-k> <Plug>(neosnippet_expand_or_jump)
 smap <C-k> <Plug>(neosnippet_expand_or_jump)
