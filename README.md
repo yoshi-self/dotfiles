@@ -14,7 +14,7 @@ git submodule update
 ### vim plugins via Vundle
 Open vim
 ```
-:BundleInstall
+:PluginInstall
 ```
 
 ## Including from default dotfiles
