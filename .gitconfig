@@ -13,3 +13,4 @@
 	difc = diff --cached
 	a = add
 	ad = add
+	pul = pull
