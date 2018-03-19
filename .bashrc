@@ -17,6 +17,7 @@ alias be="bundle exec"
 alias up="source ~/dotfiles/scripts/up/up.sh"
 alias g="~/dotfiles/scripts/misc/g.sh"
 alias t="tig status"
+alias v="vim"
 
 # Change title of screen window
 if [ $TERM == 'screen' ]; then
