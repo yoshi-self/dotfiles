@@ -4,3 +4,6 @@
 [submodule ".vim/bundle/vundle"]
 	path = .vim/bundle/vundle
 	url = https://github.com/VundleVim/Vundle.vim.git
+[submodule "scripts/favd"]
+	path = scripts/favd
+	url = git@github.com:yoshi-self/favd.git
