@@ -21,6 +21,7 @@ alias g="~/dotfiles/scripts/misc/g.sh"
 alias t="tig status"
 alias v="vim"
 alias c="cd"
+alias vag="vagrant"
 
 # Change title of screen window
 if [ $TERM == 'screen' ]; then
