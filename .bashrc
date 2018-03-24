@@ -16,6 +16,7 @@ alias cdg="cd \`git rev-parse --show-toplevel\`"
 alias be="bundle exec"
 alias up="source ~/dotfiles/scripts/up/up.sh"
 alias favd="source ~/dotfiles/scripts/favd/favd.sh"
+source ~/dotfiles/scripts/favd/favd-bash-completion.sh
 alias g="~/dotfiles/scripts/misc/g.sh"
 alias t="tig status"
 alias v="vim"
