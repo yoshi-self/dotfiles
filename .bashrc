@@ -26,6 +26,8 @@ alias t="tig status"
 alias v="vim"
 alias c="cd"
 alias vag="vagrant"
+alias scr="screen"
+alias sc="screen"
 
 # Change title of screen window
 if [ $TERM == 'screen' ]; then
