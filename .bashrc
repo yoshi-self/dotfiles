@@ -26,6 +26,7 @@ alias t="tig status"
 alias v="vim"
 alias c="cd"
 alias vag="vagrant"
+alias vagup="vagrant up"
 alias scr="screen"
 alias sc="screen"
 
