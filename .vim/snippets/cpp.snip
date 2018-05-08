@@ -78,3 +78,25 @@ snippet cin4
     cin >> ${1} >> ${2} >> ${3} >> ${0};
 snippet cin5
     cin >> ${1} >> ${2} >> ${3} >> ${4} >> ${0};
+
+snippet intcin
+    int ${1};
+    cin >> $1;
+    ${0}
+snippet intcin2
+    int ${1}, ${2};
+    cin >> $1 >> $2;
+    ${0}
+snippet intcinvecn
+    int n;
+    cin >> n;
+    vector<int> v(n);
+    ${0}
+snippet intcinvecnrep
+    int n;
+    cin >> n;
+    vector<int> v(n);
+    REP(i, n) {
+      cin >> v[i];
+    }
+    ${0}
