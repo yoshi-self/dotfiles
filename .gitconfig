@@ -3,6 +3,7 @@
 [alias]
 	co = checkout
 	st = status
+	l = log
 	logns = log --name-status
 	diffc = diff --cached
 	logp = log --date=iso --pretty=format:\"%h %ad [%an] %s\"
@@ -24,3 +25,4 @@
 	feth = fetch
 	merg = merge
 	mg = merge
+	comit = commit
