@@ -29,4 +29,3 @@
 	mg = merge
 	comit = commit
 	rl = reflog
-	rlog = reflog
