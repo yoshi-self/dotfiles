@@ -65,7 +65,6 @@ set runtimepath+=~/dotfiles/.vim/bundle/vundle
 call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'QuickBuf'
-"Bundle 'thinca/vim-quickrun'
 Plugin 'scrooloose/nerdtree'
 Plugin 'Shougo/neocomplcache'
 Plugin 'Shougo/neosnippet'
