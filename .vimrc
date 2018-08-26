@@ -91,6 +91,7 @@ inoremap <expr><CR> pumvisible() ? neocomplcache#close_popup() : "\<CR>"
 let g:NERDTreeHijackNetrw = 0
 let g:NERDTreeIgnore=['\~$', '\.pyc$', '^\.$', '^\.\.$']
 let g:NERDTreeShowHidden=1
+let g:NERDTreeWinSize=25
 
 ""neosnippet
 " disable all default snippets
