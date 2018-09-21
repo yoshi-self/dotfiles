@@ -69,6 +69,7 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'Shougo/neocomplcache'
 Plugin 'Shougo/neosnippet'
 "Bundle 'w0rp/ale'
+Plugin 'tpope/vim-surround'
 Plugin 'mattn/emmet-vim'
 call vundle#end()
 filetype plugin indent on
