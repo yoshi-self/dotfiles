@@ -37,6 +37,7 @@ alias vag="vagrant"
 alias vagup="vagrant up"
 alias scr="screen"
 alias sc="screen"
+alias dc="docker-compose"
 
 # Change title of screen window
 if [ $TERM == 'screen' ]; then
