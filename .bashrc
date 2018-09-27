@@ -38,6 +38,8 @@ alias vagup="vagrant up"
 alias scr="screen"
 alias sc="screen"
 alias dc="docker-compose"
+alias dcr="docker-compose run --rm"
+alias dce="docker-compose exec"
 
 # Change title of screen window
 if [ $TERM == 'screen' ]; then
