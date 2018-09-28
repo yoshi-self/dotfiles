@@ -1,0 +1,60 @@
+"Settings not related to plugins
+set nocompatible
+
+syntax on
+set number
+set ruler
+set listchars=tab:>.,nbsp:%,extends:\
+set list
+set tabstop=4
+set shiftwidth=4
+set shortmess+=I
+set hidden
+set wildmode=list:longest
+set noswapfile
+set nobackup
+"set autochdir
+set laststatus=2
+map <C-p> <C-PageUp>
+map <C-n> <C-PageDown>
+imap <C-@> <Nop>
+imap <C-a> <Nop>
+imap <C-a> <HOME>
+imap <C-e> <END>
+map <MiddleMouse> <Nop>
+set splitbelow
+set splitright
+set incsearch
+set hlsearch
+set ignorecase
+set smartcase
+set autoindent
+set cindent
+set whichwrap=b,s,h,l,<,>,[,]
+set backspace=indent,eol,start
+set tags+=tags;
+set previewheight=5
+set encoding=utf-8
+set noundofile
+set completeopt=menuone
+colorscheme desert
+highlight PmenuSel cterm=bold ctermfg=0 ctermbg=6 guibg=DarkGrey
+
+"open .vimrc
+command! Vimrc :e ~/dotfiles/.vimrc
+
+command! -nargs=? -complete=dir -bang C call s:ChangeCurrentDir('<args>', '<bang>')
+function! s:ChangeCurrentDir(directory, bang)
+    if a:directory == ''
+        lcd %:p:h
+    else
+        execute 'lcd' . a:directory
+    endif
+endfunction
+
+let g:netrw_localrmdir = "rm -r"
+let g:netrw_keepdir = 0
+
+let g:quickrun_config = {'*' : {'split' : ''}}
+
+hi MatchParen ctermbg=LightGray ctermfg=Black
