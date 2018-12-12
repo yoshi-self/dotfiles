@@ -16,10 +16,16 @@ snippet if
 snippet elif
     elif ${0}:
 
-snippet iinput
-    int(input())
+snippet for
+    for ${0}:
 
-snippet iinputsp
-    [int(x) for x in input().split()]
-snippet inputsp
-    input().split()
+snippet iinp
+    int(input())
+snippet sinp
+    input().rstrip()
+snippet miinp
+    map(int, input().split())
+snippet lsinp
+    input().rstrip.split()
+snippet liinp
+    list(map(int, input().split()))
