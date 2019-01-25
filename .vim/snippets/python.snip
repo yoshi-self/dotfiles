@@ -22,10 +22,14 @@ snippet for
 snippet iinp
     int(input())
 snippet sinp
-    input().rstrip()
+    input()
 snippet miinp
     map(int, input().split())
 snippet lsinp
-    input().rstrip().split()
+    input().split()
 snippet liinp
     list(map(int, input().split()))
+snippet forliinp
+    [int(input()) for _ in range(${0})]
+snippet forlsinp
+    [input() for _ in range(${0})]
