@@ -45,6 +45,17 @@ snippet scanf
 alias sf
     scanf("${0}");
 
+snippet isf
+    scanf(" %d", &${0});
+snippet isf2
+    scanf(" %d %d", &${1}, &${0});
+snippet isf3
+    scanf(" %d %d %d", &${1}, &${2}, &${0});
+snippet isf4
+    scanf(" %d %d %d %d", &${1}, &${2}, &${3}, &${0});
+snippet isf5
+    scanf(" %d %d %d %d %d", &${1}, &${2}, &${3}, &${4}, &${0});
+
 snippet printf
 alias pf
     printf("${0}");
