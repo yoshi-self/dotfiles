@@ -40,6 +40,7 @@ alias sc="screen"
 alias dc="docker-compose"
 alias dcr="docker-compose run --rm"
 alias dce="docker-compose exec"
+alias pa="php artisan"
 
 # Change title of screen window
 if [ $TERM == 'screen' ]; then
