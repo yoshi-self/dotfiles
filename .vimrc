@@ -13,19 +13,20 @@ Plugin 'Shougo/neosnippet'
 "Bundle 'w0rp/ale'
 Plugin 'tpope/vim-surround'
 Plugin 'mattn/emmet-vim'
-"Plugin 'tomasr/molokai'
-"Plugin 'w0ng/vim-hybrid'
-"Plugin 'nanotech/jellybeans.vim'
-"Plugin 'vim-scripts/twilight'
-"Plugin 'jonathanfilip/vim-lucius'
-"Plugin 'altercation/vim-colors-solarized'
-"Plugin 'jpo/vim-railscasts-theme'
-"Plugin 'vim-scripts/Wombat'
+Plugin 'tomasr/molokai'
+Plugin 'w0ng/vim-hybrid'
+Plugin 'nanotech/jellybeans.vim'
+Plugin 'vim-scripts/twilight'
+Plugin 'jonathanfilip/vim-lucius'
+Plugin 'altercation/vim-colors-solarized'
+Plugin 'jpo/vim-railscasts-theme'
+Plugin 'vim-scripts/Wombat'
 Plugin 'vim-scripts/rdark'
+Plugin 'junegunn/seoul256.vim'
 call vundle#end()
 filetype plugin indent on
 
-colorscheme rdark
+colorscheme desert
 
 let g:vimshell_split_command = 'split'
 
