@@ -6,11 +6,11 @@ filetype off
 set runtimepath+=~/dotfiles/.vim/bundle/vundle
 call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
-Plugin 'QuickBuf'
+"Plugin 'QuickBuf'
 Plugin 'scrooloose/nerdtree'
 Plugin 'Shougo/neocomplcache'
 Plugin 'Shougo/neosnippet'
-"Bundle 'w0rp/ale'
+Bundle 'w0rp/ale'
 Plugin 'tpope/vim-surround'
 Plugin 'mattn/emmet-vim'
 Plugin 'tomasr/molokai'
