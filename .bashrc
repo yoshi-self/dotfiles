@@ -45,6 +45,7 @@ alias dc="docker-compose"
 alias dcr="docker-compose run --rm"
 alias dce="docker-compose exec"
 alias pa="php artisan"
+alias tf="terraform"
 
 # Change title of screen window
 if [ $TERM == 'screen' ]; then
