@@ -21,6 +21,7 @@ imap <C-@> <Nop>
 imap <C-a> <Nop>
 imap <C-a> <HOME>
 imap <C-e> <END>
+inoremap <silent> jj <ESC>
 map <MiddleMouse> <Nop>
 set splitbelow
 set splitright
