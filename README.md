@@ -11,12 +11,6 @@ git submodule init
 git submodule update
 ```
 
-### vim plugins via Vundle
-Open vim
-```
-:PluginInstall
-```
-
 ## Including from default dotfiles
 
 ### .bashrc
@@ -36,4 +30,10 @@ source ~/dotfiles/.vimrc
 [user]
     name = myname
     email = myemail@example.com
+```
+
+## Install vim plugins via Vundle
+Open vim
+```
+:PluginInstall
 ```
