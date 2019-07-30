@@ -24,6 +24,7 @@ alias fd="source ~/dotfiles/scripts/favd/favd.sh"
 source ~/dotfiles/scripts/favd/favd-bash-completion.sh
 alias g="~/dotfiles/scripts/misc/g.sh"
 alias gi="git"
+alias gti="git"
 alias gau="git add -u"
 alias gd="git diff"
 alias gdc="git diff --cached"
