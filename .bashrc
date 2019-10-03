@@ -49,6 +49,7 @@ alias dce="docker-compose exec"
 alias pa="php artisan"
 alias tf="terraform"
 alias aw="aws"
+alias k="kubectl"
 
 # Change title of screen window
 if [ $TERM == 'screen' ]; then
