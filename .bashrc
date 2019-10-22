@@ -50,6 +50,13 @@ alias pa="php artisan"
 alias tf="terraform"
 alias aw="aws"
 alias k="kubectl"
+alias ka="kubectl apply"
+alias kaf="kubectl apply -f"
+alias kc="kubectl create"
+alias kcf="kubectl create -f"
+alias kd="kubectl delete"
+alias kdf="kubectl delete -f"
+alias kg="kubectl get"
 
 # Change title of screen window
 if [ $TERM == 'screen' ]; then
