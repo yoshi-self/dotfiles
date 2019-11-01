@@ -28,4 +28,6 @@
 	merg = merge
 	mg = merge
 	comit = commit
+	commi = commit
+	comi = commit
 	rl = reflog
