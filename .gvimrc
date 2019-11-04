@@ -8,7 +8,7 @@ colorscheme desert
 if has('win32') || has('win64')
     set guifont=Migu\ 1M:h12
 elseif has('mac')
-    set guifont=Osaka-Mono:h16
+    set guifont=Migu\ 1M:h16
 endif
 
 command! GVimrc :e ~/dotfiles/.gvimrc
