@@ -57,6 +57,7 @@ alias kcf="kubectl create -f"
 alias kd="kubectl delete"
 alias kdf="kubectl delete -f"
 alias kg="kubectl get"
+alias kl="kubectl logs"
 
 # Change title of screen window
 if [ $TERM == 'screen' ]; then
