@@ -58,6 +58,7 @@ alias kd="kubectl delete"
 alias kdf="kubectl delete -f"
 alias kg="kubectl get"
 alias kl="kubectl logs"
+alias rmdss="find . -name '.DS_Store' -type f -ls -delete"
 
 # Change title of screen window
 if [ $TERM == 'screen' ]; then
