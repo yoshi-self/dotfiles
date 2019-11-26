@@ -60,6 +60,12 @@ alias kg="kubectl get"
 alias kl="kubectl logs"
 alias rmdss="find . -name '.DS_Store' -type f -ls -delete"
 
+# disable C-s and C-q
+if [[ -t 0 ]]; then
+  stty stop undef
+  stty start undef
+fi
+
 # Change title of screen window
 if [ $TERM == 'screen' ]; then
   #export PROMPT_COMMAND='printf "\033k%s:%s\033\134" "${USER}" "`basename \"${PWD/#$HOME/~}\"`"'
