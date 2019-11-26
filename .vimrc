@@ -29,6 +29,8 @@ filetype plugin indent on
 
 colorscheme desert
 
+nnoremap <C-s> :w<CR>
+
 let g:vimshell_split_command = 'split'
 
 ""neocomplcache
