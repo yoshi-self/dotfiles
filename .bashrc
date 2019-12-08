@@ -59,6 +59,7 @@ alias kdf="kubectl delete -f"
 alias kg="kubectl get"
 alias kl="kubectl logs"
 alias rmdss="find . -name '.DS_Store' -type f -ls -delete"
+alias py="python"
 
 # disable C-s and C-q
 if [[ -t 0 ]]; then
