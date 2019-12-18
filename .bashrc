@@ -60,6 +60,7 @@ alias kg="kubectl get"
 alias kl="kubectl logs"
 alias rmdss="find . -name '.DS_Store' -type f -ls -delete"
 alias py="python"
+alias eksadmintoken='kubectl -n kube-system describe secret $(kubectl -n kube-system get secret | grep eks-admin | awk '\''{print $1}'\'')'
 
 # disable C-s and C-q
 if [[ -t 0 ]]; then
