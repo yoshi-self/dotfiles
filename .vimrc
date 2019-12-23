@@ -73,7 +73,7 @@ let g:ale_sign_column_always = 1
 let g:ale_cpp_gcc_options = '-std=c++11 -Wall -Wextra -DLOCAL'
 
 ""emmet-vim
-let g:user_emmet_leader_key='<C-E>'
+let g:user_emmet_leader_key='<C-e>'
 let g:user_emmet_settings = {
 \  'variables' : {
 \    'lang' : "ja"
