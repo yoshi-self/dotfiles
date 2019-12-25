@@ -110,5 +110,5 @@ if [ -e ~/dotfiles/scripts/git/git-prompt.sh ]; then
   source ~/dotfiles/scripts/git/git-prompt.sh
   GIT_PS1_SHOWDIRTYSTATE=1
   GIT_PS1_SHOWUPSTREAM=1
-  setopt PROMPT_SUBST ; PS1='%B%~%b${fg[cyan]}$(__git_ps1 " (%s)")${reset_color} \$ '
+  setopt PROMPT_SUBST ; PS1='%B%1~%b%{$fg[cyan]%}$(__git_ps1 " (%s)")%{$reset_color%} \$ '
 fi
