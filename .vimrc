@@ -71,6 +71,12 @@ let g:neosnippet#snippets_directory='~/dotfiles/.vim/snippets'
 ""ale settings
 let g:ale_sign_column_always = 1
 let g:ale_cpp_gcc_options = '-std=c++11 -Wall -Wextra -DLOCAL'
+let g:ale_php_phpcbf_standard = 'PSR2'
+let g:ale_php_phpcs_standard = 'PSR2'
+let g:ale_fix_on_save = 1
+let g:ale_fixers = {
+\   'php': ['phpcbf']
+\}
 
 ""emmet-vim
 let g:user_emmet_leader_key='<C-e>'
