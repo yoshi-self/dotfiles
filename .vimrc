@@ -13,6 +13,8 @@ Plugin 'Shougo/neosnippet'
 Plugin 'w0rp/ale'
 Plugin 'tpope/vim-surround'
 Plugin 'mattn/emmet-vim'
+Plugin 'vim-airline/vim-airline'
+Plugin 'tpope/vim-fugitive'
 "Plugin 'cohama/lexima.vim'
 "Plugin 'tomasr/molokai'
 "Plugin 'w0ng/vim-hybrid'
@@ -98,3 +100,7 @@ let g:user_emmet_settings = {
 \    }
 \  }
 \}
+
+""vim-airline
+"default: '%3p%% %#__accent_bold#%{g:airline_symbols.linenr}%4l%#__restore__#%#__accent_bold#/%L%{g:airline_symbols.maxlinenr}%#__restore__# :%3v'
+let g:airline_section_z = ' %#__accent_bold#%l/%L%#__restore__#:%3v'
