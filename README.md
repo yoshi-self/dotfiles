@@ -15,12 +15,17 @@ git submodule update
 
 ### .bashrc
 ```
-source ~/dotfiles/.bashrc
+echo 'source ~/dotfiles/.bashrc' >> ~/.bashrc
 ```
 
 ### .vimrc
 ```
-source ~/dotfiles/.vimrc
+echo 'source ~/dotfiles/.vimrc' >> ~/.vimrc
+```
+
+### .screenrc
+```
+ln -s ~/dotfiles/.screenrc ~/.screenrc
 ```
 
 ### .gitconfig
