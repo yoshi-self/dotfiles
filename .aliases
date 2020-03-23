@@ -60,3 +60,4 @@ alias krrd="kubectl rollout restart deployment"
 alias rmdss="find . -name '.DS_Store' -type f -ls -delete"
 alias py="python"
 alias eksadmintoken='kubectl -n kube-system describe secret $(kubectl -n kube-system get secret | grep eks-admin | awk '\''{print $1}'\'')'
+alias pr="pipenv run'
