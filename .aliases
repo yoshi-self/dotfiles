@@ -68,3 +68,5 @@ alias eksadmintoken='kubectl -n kube-system describe secret $(kubectl -n kube-sy
 alias pr="pipenv run"
 alias prp="pipenv run python"
 alias tm="tmux"
+alias pb="pbcopy"
+alias pbc="pbcopy"
