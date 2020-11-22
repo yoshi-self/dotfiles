@@ -106,3 +106,6 @@ let g:user_emmet_settings = {
 ""vim-airline
 "default: '%3p%% %#__accent_bold#%{g:airline_symbols.linenr}%4l%#__restore__#%#__accent_bold#/%L%{g:airline_symbols.maxlinenr}%#__restore__# :%3v'
 let g:airline_section_z = ' %#__accent_bold#%l/%L%#__restore__#:%3v'
+
+"".hcl
+autocmd BufNewFile,BufRead *.hcl setfiletype hcl
