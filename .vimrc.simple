@@ -22,6 +22,7 @@ imap <C-a> <Nop>
 imap <C-a> <HOME>
 imap <C-e> <END>
 map <MiddleMouse> <Nop>
+tnoremap <Esc> <C-\><C-n>
 set splitbelow
 set splitright
 set incsearch
@@ -54,7 +55,5 @@ endfunction
 
 let g:netrw_localrmdir = "rm -r"
 let g:netrw_keepdir = 0
-
-let g:quickrun_config = {'*' : {'split' : ''}}
 
 hi MatchParen ctermbg=LightGray ctermfg=Black
