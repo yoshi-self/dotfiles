@@ -13,16 +13,7 @@ set hidden
 set wildmode=list:longest
 set noswapfile
 set nobackup
-"set autochdir
 set laststatus=2
-map <C-p> <C-PageUp>
-map <C-n> <C-PageDown>
-imap <C-@> <Nop>
-imap <C-a> <Nop>
-imap <C-a> <HOME>
-imap <C-e> <END>
-map <MiddleMouse> <Nop>
-tnoremap <Esc> <C-\><C-n>
 set splitbelow
 set splitright
 set incsearch
@@ -57,3 +48,5 @@ let g:netrw_localrmdir = "rm -r"
 let g:netrw_keepdir = 0
 
 hi MatchParen ctermbg=LightGray ctermfg=Black
+
+source <sfile>:h/.vim/maps.vim
