@@ -10,3 +10,5 @@ nnoremap <C-s> :w<CR>
 nnoremap Q <Nop>
 nnoremap ZZ <Nop>
 let mapleader = "\<SPACE>"
+nnoremap <Leader>f :Files<CR>
+nnoremap <Leader>g :Rg 
