@@ -1,4 +1,11 @@
 colorscheme desert
+highlight Normal ctermbg=black guibg=black
+highlight NonText ctermbg=black guibg=black
+highlight Pmenu ctermfg=0 ctermbg=13 guibg=grey15
+highlight CursorLine guibg=grey30
+highlight CocErrorSign guifg=#C00000
+highlight PreProc guifg=#f56666
+highlight Title guifg=#f56666
 
 ""NERDTree
 let g:NERDTreeHijackNetrw = 0

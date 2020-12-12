@@ -1,5 +1,9 @@
 source ~/dotfiles/.vimrc.simple
 
+set termguicolors
+let &t_8f = "\<Esc>[38:2:%lu:%lu:%lum"
+let &t_8b = "\<Esc>[48:2:%lu:%lu:%lum"
+
 set runtimepath^=~/dotfiles/.vim
 
 "" vim-plug
@@ -10,24 +14,21 @@ call plug#begin('~/.vim/plugged')
   Plug 'neoclide/coc.nvim'
   Plug 'editorconfig/editorconfig-vim'
   Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-Plug 'junegunn/fzf.vim'
+  Plug 'junegunn/fzf.vim'
+  Plug 'vim-airline/vim-airline'
+  Plug 'w0ng/vim-hybrid'
+  Plug 'cocopon/iceberg.vim'
+  Plug 'tomasr/molokai'
 call plug#end()
 
-"" coc.nvim
-let g:coc_global_extensions = [
-\ 'coc-json',
-\ 'coc-python',
-\]
-set signcolumn=yes
-" Use `[g` and `]g` to navigate diagnostics
-nmap <silent> [g <Plug>(coc-diagnostic-prev)
-nmap <silent> ]g <Plug>(coc-diagnostic-next)
-" GoTo code navigation.
-nmap <silent> gd <Plug>(coc-definition)
-nmap <silent> gy <Plug>(coc-type-definition)
-nmap <silent> gi <Plug>(coc-implementation)
-nmap <silent> gr <Plug>(coc-references)
+"" vim-airline
+let g:airline#extensions#coc#enabled = 1
+let airline#extensions#coc#error_symbol = 'E:'
+let airline#extensions#coc#warning_symbol = 'W:'
+let airline#extensions#coc#stl_format_err = '%E{[%e(#%fe)]}'
+let airline#extensions#coc#stl_format_warn = '%W{[%w(#%fw)]}'
 
+source ~/dotfiles/.vim/coc.vim
 source ~/dotfiles/.vim/misc.vim
 
 autocmd FileType nerdtree,netrw setlocal signcolumn=no
