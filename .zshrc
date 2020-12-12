@@ -13,3 +13,5 @@ if [ -e ~/dotfiles/scripts/git/git-prompt.sh ]; then
   GIT_PS1_SHOWUPSTREAM=1
   setopt PROMPT_SUBST ; PS1='%B%1~%b%{$fg[cyan]%}$(__git_ps1 " (%s)")%{$reset_color%} \$ '
 fi
+
+export RIPGREP_CONFIG_PATH=~/dotfiles/.ripgreprc
