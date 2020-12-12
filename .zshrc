@@ -15,3 +15,6 @@ if [ -e ~/dotfiles/scripts/git/git-prompt.sh ]; then
 fi
 
 export RIPGREP_CONFIG_PATH=~/dotfiles/.ripgreprc
+
+export FZF_DEFAULT_COMMAND='rg --files 2>/dev/null'
+export FZF_CTRL_T_COMMAND=$FZF_DEFAULT_COMMAND
