@@ -18,3 +18,4 @@ export RIPGREP_CONFIG_PATH=~/dotfiles/.ripgreprc
 
 export FZF_DEFAULT_COMMAND='rg --files 2>/dev/null'
 export FZF_CTRL_T_COMMAND=$FZF_DEFAULT_COMMAND
+export FZF_ALT_C_COMMAND="fd --type d --hidden --exclude '.git' --no-ignore-vcs"
