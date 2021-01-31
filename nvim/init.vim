@@ -12,6 +12,7 @@ call plug#begin('~/.vim/plugged')
   Plug 'Shougo/neosnippet.vim'
   Plug 'thinca/vim-quickrun'
   Plug 'neoclide/coc.nvim'
+  Plug 'beanworks/vim-phpfmt'
   Plug 'editorconfig/editorconfig-vim'
   Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
   Plug 'junegunn/fzf.vim'
