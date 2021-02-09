@@ -29,6 +29,9 @@ let airline#extensions#coc#warning_symbol = 'W:'
 let airline#extensions#coc#stl_format_err = '%E{[%e(#%fe)]}'
 let airline#extensions#coc#stl_format_warn = '%W{[%w(#%fw)]}'
 
+"" quickrun
+let g:quickrun_config = {'*' : {'split' : ''}}
+
 source ~/dotfiles/.vim/coc.vim
 source ~/dotfiles/.vim/misc.vim
 
