@@ -5,6 +5,7 @@ if [[ -t 0 ]]; then
 fi
 
 source ~/dotfiles/.aliases
+source ~/dotfiles/.aliases_nvim
 
 # Set prompt
 if [ -e ~/dotfiles/scripts/git/git-prompt.sh ]; then

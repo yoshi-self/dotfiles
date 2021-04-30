@@ -1,0 +1,6 @@
+alias v="nvim"
+alias vi="nvim"
+alias vim="nvim"
+alias vn="nvim -c NERDTree"
+alias nv="nvim"
+alias nvn="nvim -c NERDTree"
