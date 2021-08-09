@@ -3,12 +3,8 @@ This is my dotfiles uploaded for convinience
 Below are instructions for future me
 
 ## Installation
-
-### submodules
-After clone, at the root of this repo
 ```
-git submodule init
-git submodule update
+git clone git@github.com:yoshi-self/dotfiles.git --recursive
 ```
 
 ## Including from default dotfiles
