@@ -1,17 +1,20 @@
 " extensions
 let g:coc_global_extensions = [
 \ 'coc-json',
-\ 'coc-python',
-\ 'coc-phpls',
+\ 'coc-jedi',
 \ 'coc-go',
+\ 'coc-json',
+\ 'coc-phpls',
+\ 'coc-tsserver',
+\ 'coc-html',
 \]
 
 
 " TextEdit might fail if hidden is not set.
-"set hidden
+set hidden
 
 " Some servers have issues with backup files, see #649.
-"set nobackup
+set nobackup
 set nowritebackup
 
 " Give more space for displaying messages.
@@ -26,7 +29,7 @@ set shortmess+=c
 
 " Always show the signcolumn, otherwise it would shift the text each time
 " diagnostics appear/become resolved.
-if has("patch-8.1.1564")
+if has("nvim-0.5.0") || has("patch-8.1.1564")
   " Recently vim can merge signcolumn and number column into one
   set signcolumn=number
 else
@@ -87,8 +90,8 @@ endfunction
 autocmd CursorHold * silent call CocActionAsync('highlight')
 
 " Symbol renaming.
-"nmap <leader>rn <Plug>(coc-rename)
-
+nmap <leader>rn <Plug>(coc-rename)
+"
 " Formatting selected code.
 "xmap <leader>f  <Plug>(coc-format-selected)
 "nmap <leader>f  <Plug>(coc-format-selected)

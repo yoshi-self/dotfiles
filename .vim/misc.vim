@@ -30,7 +30,3 @@ let g:neosnippet#snippets_directory='~/dotfiles/.vim/snippets'
 
 "".hcl
 autocmd BufNewFile,BufRead *.hcl setfiletype hcl
-
-"" vim-phpfmt
-let g:phpfmt_standard = 'PSR2'
-"let g:phpfmt_autosave = 0

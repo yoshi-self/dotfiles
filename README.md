@@ -42,3 +42,11 @@ Open vim
 ```
 :PluginInstall
 ```
+
+## Linters and Fixers
+```
+# Python
+pip install flake8 black
+# PHP
+composer global require "squizlabs/php_codesniffer=*"
+```
