@@ -24,6 +24,11 @@ echo 'source ~/dotfiles/.vimrc' >> ~/.vimrc
 ln -s ~/dotfiles/.screenrc ~/.screenrc
 ```
 
+### .tmux.conf
+```
+source ~/dotfiles/.tmux.conf
+```
+
 ### .gitconfig
 ```
 [include]
