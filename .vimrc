@@ -6,16 +6,12 @@ filetype off
 set runtimepath+=~/dotfiles/.vim/bundle/vundle
 call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
-Plugin 'scrooloose/nerdtree'
+Plugin 'preservim/nerdtree'
 Plugin 'Shougo/neocomplcache'
 Plugin 'Shougo/neosnippet'
 Plugin 'w0rp/ale'
-Plugin 'tpope/vim-surround'
 Plugin 'mattn/emmet-vim'
-Plugin 'posva/vim-vue'
-Plugin 'hashivim/vim-terraform'
 Plugin 'editorconfig/editorconfig-vim'
-"Plugin 'cohama/lexima.vim'
 call vundle#end()
 filetype plugin indent on
 
