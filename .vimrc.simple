@@ -29,6 +29,9 @@ set previewheight=5
 set encoding=utf-8
 set noundofile
 set completeopt=menuone
+set expandtab
+let g:vim_json_syntax_conceal=0
+
 colorscheme desert
 highlight PmenuSel cterm=bold ctermfg=0 ctermbg=6 guibg=DarkGrey
 
@@ -49,4 +52,19 @@ let g:netrw_keepdir = 0
 
 hi MatchParen ctermbg=LightGray ctermfg=Black
 
-source <sfile>:h/.vim/maps.vim
+" keymaps
+map <C-p> <C-PageUp>
+map <C-n> <C-PageDown>
+imap <C-@> <Nop>
+imap <C-a> <Nop>
+imap <C-a> <HOME>
+imap <C-e> <END>
+map <MiddleMouse> <Nop>
+tnoremap <Esc> <C-\><C-n>
+nnoremap <C-s> :w<CR>
+nnoremap Q <Nop>
+nnoremap ZZ <Nop>
+let mapleader = "\<SPACE>"
+nnoremap <Leader>f :Files<CR>
+nnoremap <Leader>l :Lines<CR>
+nnoremap <Leader>g :Rg
