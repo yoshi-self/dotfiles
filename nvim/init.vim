@@ -8,20 +8,16 @@ set runtimepath^=~/dotfiles/.vim
 
 "" vim-plug
 call plug#begin('~/.vim/plugged')
-  Plug 'scrooloose/nerdtree'
+  Plug 'preservim/nerdtree'
   Plug 'Shougo/neosnippet.vim'
-  Plug 'thinca/vim-quickrun'
   Plug 'neoclide/coc.nvim', {'branch': 'release'}
   Plug 'dense-analysis/ale'
-"  Plug 'beanworks/vim-phpfmt'
   Plug 'editorconfig/editorconfig-vim'
   Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
   Plug 'junegunn/fzf.vim'
   Plug 'vim-airline/vim-airline'
-"  Plug 'w0ng/vim-hybrid'
-"  Plug 'cocopon/iceberg.vim'
-"  Plug 'tomasr/molokai'
   Plug 'mattn/emmet-vim'
+"  Plug 'github/copilot.vim'
 call plug#end()
 
 "" vim-airline
