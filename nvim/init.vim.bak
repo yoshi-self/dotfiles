@@ -13,10 +13,15 @@ call plug#begin('~/.vim/plugged')
   Plug 'neoclide/coc.nvim', {'branch': 'release'}
   Plug 'dense-analysis/ale'
   Plug 'editorconfig/editorconfig-vim'
-  Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-  Plug 'junegunn/fzf.vim'
+"  Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+"  Plug 'junegunn/fzf.vim'
+  Plug 'nvim-lua/plenary.nvim'
+  Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.4' }
+  Plug 'nvim-telescope/telescope-file-browser.nvim'
   Plug 'vim-airline/vim-airline'
   Plug 'mattn/emmet-vim'
+  Plug 'nvim-tree/nvim-web-devicons'
+  Plug 'lpoto/telescope-docker.nvim'
 "  Plug 'github/copilot.vim'
 call plug#end()
 
@@ -35,3 +40,13 @@ source ~/dotfiles/.vim/misc.vim
 source ~/dotfiles/nvim/ale.vim
 
 autocmd FileType nerdtree,netrw setlocal signcolumn=no
+
+" Find files using Telescope command-line sugar.
+nnoremap <leader>ff <cmd>Telescope find_files<cr>
+nnoremap <leader>fg <cmd>Telescope live_grep<cr>
+nnoremap <leader>fb <cmd>Telescope buffers<cr>
+nnoremap <leader>fh <cmd>Telescope help_tags<cr>
+nnoremap <leader>e <cmd>Telescope file_browser<cr>
+nnoremap <leader>fd <cmd>Telescope docker<cr>
+
+:lua require('nvim')
